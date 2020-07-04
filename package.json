@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "module": "option-dialog.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
