@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction-like radio selector</title>
+    <script src="/option-dialog.js" type="module"></script>
+    <link rel="stylesheet" href="/icon-only.css">
+</head>
+<body>
+    <p>test</p>
+    <fieldset class="radio-group radio-group--inline">
+        <legend class="radio-group__label">Status</legend>
+        <option-dialog>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[1][status]" type="radio" value="sick" ><i class="radio-group__icon">🤒</i><span class="sr-only">Sick</span></label>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[1][status]" type="radio" value="in_office" ><i class="radio-group__icon">🏢</i><span class="sr-only">In Office</span></label>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[1][status]" type="radio" value="on_leave" ><i class="radio-group__icon">🏖️</i><span class="sr-only">On Leave</span></label>
+        </option-dialog>
+    </fieldset>
+    <p>test</p>
+    <p>test</p>
+    <p>test</p>
+    <fieldset class="radio-group radio-group--inline">
+        <legend class="radio-group__label">Status</legend>
+        <option-dialog>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[2][status]" type="radio" value="sick" ><i class="radio-group__icon">🤒</i><span class="sr-only">Sick</span></label>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[2][status]" type="radio" value="in_office" ><i class="radio-group__icon">🏢</i><span class="sr-only">In Office</span></label>
+            <label class="radio-group__field" slot="option">
+                <input class="radio-group__control sr-only" name="days[2][status]" type="radio" value="on_leave" ><i class="radio-group__icon">🏖️</i><span class="sr-only">On Leave</span></label>
+        </option-dialog>
+    </fieldset>
+</body>
+</html>
