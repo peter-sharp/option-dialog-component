@@ -1,7 +1,7 @@
 {
-  "name": "option-dialog",
+  "name": "@peter-sharp/option-dialog",
   "version": "0.1.2",
-  "description": "",
+  "description": "**status** *alpha* - works but has issues, like not being able to style the selected option.",
   "module": "option-dialog.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -10,6 +10,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Peter Sharp",
+  "license": "ISC",
+  "main": "option-dialog.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-sharp/option-dialog-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peter-sharp/option-dialog-component/issues"
+  },
+  "homepage": "https://github.com/peter-sharp/option-dialog-component#readme"
 }
